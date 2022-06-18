@@ -1,9 +1,12 @@
+import profile from '../../assets/images/profile.jpg';
+import { About } from './partials';
+
 const Home = () => {
     return (
-        <main className="container mx-auto">
-            <header className="App-header">
-                <h1 className="text-2xl">MaFI</h1>
-            </header>
+        <main className="container mx-auto grid grid-cols-3 gap-3 mt-5 max-w-screen-lg">
+            <div>
+                <About profile={profile} />
+            </div>
         </main>
     )
 }
