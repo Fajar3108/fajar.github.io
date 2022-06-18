@@ -3,8 +3,10 @@ import { Link  } from "react-router-dom";
 const Tabs = () => {
 
     return (
-        <div className="grid grid-cols-2 mb-3">
-            <Link activeClassName="text-white bg-blue-600" to="/" className="py-2 text-center border border-blue-600 text-blue-600">Works</Link>
+        <div className="grid md:grid-cols-3 grid-cols-1 mb-3">
+            <Link to="/" className="py-2 text-center border text-sm">Works</Link>
+            <Link to="/experinces" className="py-2 text-center border text-sm">Experiences</Link>
+            <Link to="/archivements" className="py-2 text-center border text-sm">Archivements</Link>
         </div>
     )
 }
