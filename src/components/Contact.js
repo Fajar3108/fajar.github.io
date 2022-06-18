@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 const Contact = () => {
     const contacts = [
         {
@@ -24,7 +26,7 @@ const Contact = () => {
             <ul className="text-gray-500 text-sm transition-all">
                 {
                     contacts.map((contact) => (
-                        <li><a href={contact.url} target="_blank" rel="noreferrer" className="hover:text-blue-700">{contact.text}</a></li>
+                        <li key={nanoid()}><a href={contact.url} target="_blank" rel="noreferrer" className="hover:text-blue-700">{contact.text}</a></li>
                     ))
                 }
             </ul>

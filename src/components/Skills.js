@@ -1,3 +1,5 @@
+import { nanoid } from "nanoid";
+
 const Skills = () => {
     const skills = [
         'HTML', 'CSS', 'JavaScript', 'PHP', 'GIT', 'MYSQL','Figma', 'Bootstrap', 'Tailwind', 'Laravel', 'React JS',
@@ -9,7 +11,7 @@ const Skills = () => {
             <div className="flex flex-wrap mt-1">
                 {
                     skills.map((skill) => (
-                        <p className="px-2 py-1 mr-1 mb-1 bg-white text-gray-500 border border-gray-500 text-sm">{skill}</p>
+                        <p className="px-2 py-1 mr-1 mb-1 bg-white text-gray-500 border border-gray-500 text-sm" key={nanoid()}>{skill}</p>
                     ))
                 }
             </div>
