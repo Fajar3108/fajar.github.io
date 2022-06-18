@@ -19,9 +19,9 @@ const Contact = () => {
     ];
 
     return (
-        <div id="contact" className="py-6 border-b-2">
+        <div id="contact" className="py-6 border-b-2 mb-3">
             <h4 className="font-bold text-gray-500">CONTACT</h4>
-            <ul className="text-gray-500 text-sm transition-all list-disc">
+            <ul className="text-gray-500 text-sm transition-all">
                 {
                     contacts.map((contact) => (
                         <li><a href={contact.url} target="_blank" rel="noreferrer" className="hover:text-blue-700">{contact.text}</a></li>

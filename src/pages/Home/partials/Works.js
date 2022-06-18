@@ -36,7 +36,7 @@ const Works = () => {
                 works.map((work) => (
                 <div className="w-full bg-gray-400 relative overflow-hidden group mb-3">
                     <img src={work.image} alt=" " className="w-full object-cover" />
-                    <div className="p-4 absolute bg-black/50 z-50 -bottom-40 group-hover:bottom-0 transition-all text-white">
+                    <div className="p-4 absolute bg-black/50 z-50 -bottom-72 group-hover:bottom-0 transition-all text-white">
                         <h2 className="text-xl mb-1">{work.title}</h2>
                         <p className="text-sm text-gray-200">{work.description}</p>
                         <div className="flex">
