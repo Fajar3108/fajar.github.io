@@ -1,5 +1,5 @@
 import './assets/css/App.css';
-import {Works} from './pages';
+import {Experiences, Works} from './pages';
 import { Routes, Route } from 'react-router-dom';
 import { About, Contact, Skills, Footer, Tabs } from './components';
 import profile from './assets/images/profile.jpg';
@@ -17,6 +17,7 @@ function App() {
           <Tabs />
           <Routes>
             <Route path="/" element={<Works />} />
+            <Route path="/experiences" element={<Experiences />} />
           </Routes>
         </div>
     </main>
