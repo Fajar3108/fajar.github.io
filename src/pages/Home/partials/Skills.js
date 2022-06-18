@@ -1,6 +1,6 @@
 const Skills = () => {
     const skills = [
-        'HTML', 'CSS', 'JavaScript', 'PHP', 'GIT', 'MYSQL','Figma', 'Bootstrap', 'Laravel', 'React JS'
+        'HTML', 'CSS', 'JavaScript', 'PHP', 'GIT', 'MYSQL','Figma', 'Bootstrap', 'Tailwind', 'Laravel', 'React JS',
     ];
 
     return (
