@@ -31,7 +31,7 @@ const Works = () => {
     ]
 
     return (
-        <div id="works" className="md:overflow-y-scroll md:h-screen">
+        <div id="works" className="md:overflow-y-auto md:h-screen">
             {
                 works.map((work) => (
                 <div className="w-full bg-gray-400 relative overflow-hidden group mb-3">
