@@ -26,7 +26,7 @@ const Experiences = () => {
         <div id="experiences">
             {
                 experiences.map((experience) => (
-                    <div className="p-4 border mb-3">
+                    <div className="p-4 border mb-3" key={nanoid()}>
                         <h4 className="font-bold">{experience.company}</h4>
                         <p className="text-sm">{experience.position}</p>
                         <div className="text-sm text-gray-500">
