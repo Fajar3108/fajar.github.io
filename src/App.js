@@ -1,5 +1,5 @@
 import './assets/css/App.css';
-import {Experiences, Works} from './pages';
+import {Archivements, Experiences, Works} from './pages';
 import { Routes, Route } from 'react-router-dom';
 import { About, Contact, Skills, Footer, Tabs } from './components';
 import profile from './assets/images/profile.jpg';
@@ -18,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Works />} />
             <Route path="/experiences" element={<Experiences />} />
+            <Route path="/archivements" element={<Archivements />} />
           </Routes>
         </div>
     </main>
